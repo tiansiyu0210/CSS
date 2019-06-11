@@ -10,7 +10,7 @@
 - [Backgrounds](#backgrounds)
 - [Borders](#borders)
 - [Margins](#margins)
-- [Backgrounds](#backgrounds)
+- [Padding](#padding)
 
 ## Syntax
 ```
@@ -314,4 +314,66 @@ h2 {
 </body>
 </html>
 ```
+
+## Padding
+
+> The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+
+- Individual Sides
+  - padding-top
+  - padding-right
+  - padding-bottom
+  - padding-left
+  
+  ```
+  div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+  ```
+ 
+- Shorthand Property
+```
+div {
+  padding: 25px 50px 75px 100px;
+}
+```
+
+- [CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
+
+- Padding and Element Width
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.ex1 {
+  width: 300px;
+  background-color: yellow;
+}
+
+div.ex2 {
+  width: 300px;
+  padding: 25px;
+  background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<h2>Padding and element width</h2>
+
+<div class="ex1">This div is 300px wide.</div>
+<br>
+
+<div class="ex2">The width of this div is 350px, even though it is defined as 300px in the CSS.</div>
+
+</body>
+</html>
+```
+
+
+
 
