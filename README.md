@@ -210,7 +210,7 @@ p {
 |border-left-style	|Sets the style of the left border|
 |border-left-width|	Sets the width of the left border|
 |border-radius	|Sets all the four border-*-radius properties for rounded corners|
-|border-right	Sets| all the right border properties in one declaration|
+|border-right	| Sets all the right border properties in one declaration|
 |border-right-color|	Sets the color of the right border|
 |border-right-style|	Sets the style of the right border|
 |border-right-width|	Sets the width of the right border|
@@ -222,4 +222,83 @@ p {
 |border-width|	Sets the width of the four borders|
 
 
+
+## [Margins](https://www.w3schools.com/css/css_margin.asp)
+
+> The CSS margin properties are used to create space around elements, outside of any defined borders.
+
+- Individual Sides
+  - margin-top
+  - margin-right
+  - margin-bottom
+  - margin-left
+  
+- Shorthand Property
+```
+p {
+  margin: 25px 50px 75px 100px;
+}
+```
+
+- The auto Value
+
+> The element will then take up the specified width, and the remaining space will be split equally between the left and right margins:
+
+```
+div {
+  width: 300px;
+  margin: auto;
+  border: 1px solid red;
+}
+```
+
+- The inherit Value
+
+> This example lets the left margin of the <p class="ex1"> element be inherited from the parent element (<div>):
+  
+```
+<div>
+  <p class="ex1">This paragraph has an inherited left margin (from the div element).</p>
+</div>
+  
+div {
+  border: 1px solid red;
+  margin-left: 100px;
+}
+
+p.ex1 {
+  margin-left: inherit;
+}
+```
+
+- Margin Collapse
+
+> Top and bottom margins of elements are sometimes collapsed into a single margin that is equal to the largest of the two margins.
+
+  This does not happen on left and right margins! Only top and bottom margins!
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  margin: 0 0 50px 0;
+}
+
+h2 {
+  margin: 20px 0 0 0;
+}
+</style>
+</head>
+<body>
+
+<p>In this example the h1 element has a bottom margin of 50px and the h2 element has a top margin of 20px. Then, the vertical margin between h1 and h2 should have been 70px (50px + 20px). However, due to margin collapse, the actual margin ends up being 50px.</p>
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+
+</body>
+</html>
+```
 
