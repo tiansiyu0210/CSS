@@ -137,5 +137,89 @@ body {
   }
   ```
   
+## [Borders](https://www.w3schools.com/css/css_border.asp)
+- Border Style
+  - dotted - Defines a dotted border
+  - dashed - Defines a dashed border
+  - solid - Defines a solid border
+  - double - Defines a double border
+  - groove - Defines a 3D grooved border. The effect depends on the border-color value
+  - ridge - Defines a 3D ridged border. The effect depends on the border-color value
+  - inset - Defines a 3D inset border. The effect depends on the border-color value
+  - outset - Defines a 3D outset border. The effect depends on the border-color value
+  - none - Defines no border
+  - hidden - Defines a hidden border
+  ```
+  p.mix {border-style: dotted dashed solid double;}
+  ```
+- Border Width
+```
+p.three {
+  border-style: solid;
+  border-width: 2px 10px 4px 20px;
+}
+```
+
+- Border Color
+```
+p.three {
+  border-style: solid;
+  border-color: red green blue yellow;
+}
+```
+
+- Individual Sides
+> (top, right, bottom, left)
+> (top, right/left, bottom)
+> (top/bottom, right/left)
+> (four sides)
+
+- Shorthand Property
+```
+p {
+  border: 5px solid red;
+}
+```
+```
+p {
+  border-left: 6px solid red;
+  background-color: lightgrey;
+}
+```
+
+- Rounded Borders
+```
+p {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+```
+
+- other property
+
+| Property	| Description |
+| --- | --- |
+|border|	Sets all the border properties in one declaration|
+|border-bottom	|Sets all the bottom border properties in one declaration|
+|border-bottom-color|	Sets the color of the bottom border|
+|border-bottom-style|	Sets the style of the bottom border|
+|border-bottom-width|	Sets the width of the bottom border|
+|border-color|	Sets the color of the four borders|
+|border-left|	Sets all the left border properties in one declaration|
+|border-left-color|	Sets the color of the left border|
+|border-left-style	|Sets the style of the left border|
+|border-left-width|	Sets the width of the left border|
+|border-radius	|Sets all the four border-*-radius properties for rounded corners|
+|border-right	Sets| all the right border properties in one declaration|
+|border-right-color|	Sets the color of the right border|
+|border-right-style|	Sets the style of the right border|
+|border-right-width|	Sets the width of the right border|
+|border-style|	Sets the style of the four borders|
+|border-top|	Sets all the top border properties in one declaration|
+|border-top-color|	Sets the color of the top border|
+|border-top-style|	Sets the style of the top border|
+|border-top-width|	Sets the width of the top border|
+|border-width|	Sets the width of the four borders|
+
 
 
