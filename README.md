@@ -1,11 +1,24 @@
 # [CSS](https://www.w3schools.com/css/default.asp)
+
+## Go to
+- [Syntax](#syntax)
+- [Selector](#selector)
+- [Comments](#comments)
+- [CSS How To](#css-how-to)
+- [Cascading Order](#cascading-order)
+- [Colors](#colors)
+- [Backgrounds](#backgrounds)
+- [Borders](#borders)
+- [Margins](#margins)
+- [Backgrounds](#backgrounds)
+
 ## Syntax
 ```
 h1 {color:blue; font-size:12px}
 ```
 > selector {Property: value}
 
-## Selector:
+## Selector
 - id: #h1
 - class: .test
 - grouping: 
@@ -18,7 +31,7 @@ h1 {color:blue; font-size:12px}
  ## Comments
 > /* This is a single-line comment */
   
- ## CSS How To...
+ ## CSS How To
 - External style sheet
 ```
   <head>
