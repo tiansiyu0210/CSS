@@ -14,6 +14,7 @@
 - [Height and Width](#height-and-width)
 - [Box Model](#box-model)
 - [Outline](#outline)
+- [Text](#text)
 
 ## Syntax
 ```
@@ -478,3 +479,130 @@ p.ex4 {outline: thick ridge pink;}
 - Outline Offset
 > The outline-offset property adds space between an outline and the edge/border of an element. The space between an element and its outline is transparent.
   
+  
+## [Text](https://www.w3schools.com/css/css_text.asp)
+
+- text color
+```
+body {
+  color: blue;
+}
+
+h1 {
+  color: green;
+}
+```
+
+- Text Alignment
+
+> A text can be left or right aligned, centered, or justified.
+
+When the text-align property is set to `justify`, each line is stretched so that every line has equal width, and the left and right margins are straight (like in magazines and newspapers):
+
+- Text Decoration
+
+The `text-decoration` property is used to set or remove decorations from text.
+
+The value `text-decoration: none;` is often used to remove underlines from links:
+
+```
+h1 {
+  text-decoration: overline;
+}
+
+h2 {
+  text-decoration: line-through;
+}
+
+h3 {
+  text-decoration: underline;
+}
+```
+
+- Text Transformation
+
+```
+p.uppercase {
+  text-transform: uppercase;
+}
+
+p.lowercase {
+  text-transform: lowercase;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}
+```
+
+- Text Indentation
+```
+p {
+  text-indent: 50px;
+}
+```
+
+- Letter Spacing
+> The `letter-spacing` property is used to specify the space between the characters in a text.
+
+```
+h1 {
+  letter-spacing: 3px;
+}
+
+h2 {
+  letter-spacing: -3px;
+}
+```
+
+- Line Height
+
+> The `line-height` property is used to specify the space between lines:
+
+```
+p.small {
+  line-height: 0.8;
+}
+
+p.big {
+  line-height: 1.8;
+}
+```
+
+- Text Direction
+The `direction` property is used to change the text direction of an element:
+
+```
+p {
+  direction: rtl;
+}
+```
+
+- Word Spacing
+
+The `word-spacing` property is used to specify the space between the words in a text.
+
+```
+h1 {
+  word-spacing: 10px;
+}
+
+h2 {
+  word-spacing: -5px;
+}
+```
+
+- Text Shadow
+
+The following example specifies the position of the horizontal shadow (3px), the position of the vertical shadow (2px) and the color of the shadow (red):
+
+```
+h1 {
+  text-shadow: 3px 2px red;
+}
+```
+
+
+
+
+
