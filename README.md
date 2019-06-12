@@ -13,6 +13,7 @@
 - [Padding](#padding)
 - [Height and Width](#height-and-width)
 - [Box Model](#box-model)
+- [Outline](#outline)
 
 ## Syntax
 ```
@@ -421,3 +422,59 @@ The total height of an element should be calculated like this:
 Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
 
 
+##[Outline](https://www.w3schools.com/css/css_outline.asp)
+
+- outline properties
+  - outline-style
+  - outline-color
+  - outline-width
+  - outline-offset
+  - outline
+
+> Note: Outline differs from borders! Unlike border, the outline is drawn outside the element's border, and may overlap other content. Also, the outline is NOT a part of the element's dimensions; the element's total width and height is not affected by the width of the outline.
+
+- Outline Style
+  - dotted - Defines a dotted outline
+  - dashed - Defines a dashed outline
+  - solid - Defines a solid outline
+  - double - Defines a double outline
+  - groove - Defines a 3D grooved outline
+  - ridge - Defines a 3D ridged outline
+  - inset - Defines a 3D inset outline
+  - outset - Defines a 3D outset outline
+  - none - Defines no outline
+  - hidden - Defines a hidden outline
+  
+```
+p.ex1 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+}
+```
+
+- Outline Width
+  - thin (typically 1px)
+  - medium (typically 3px)
+  - thick (typically 5px)
+  - A specific size (in px, pt, cm, em, etc)
+ 
+```
+ p.ex1 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thin;
+}
+```
+
+- Shorthand property
+```
+p.ex1 {outline: dashed;}
+p.ex2 {outline: dotted red;}
+p.ex3 {outline: 5px solid yellow;}
+p.ex4 {outline: thick ridge pink;}
+```
+- Outline Offset
+> The outline-offset property adds space between an outline and the edge/border of an element. The space between an element and its outline is transparent.
+  
