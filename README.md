@@ -422,7 +422,7 @@ The total height of an element should be calculated like this:
 Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
 
 
-##[Outline](https://www.w3schools.com/css/css_outline.asp)
+## [Outline](https://www.w3schools.com/css/css_outline.asp)
 
 - outline properties
   - outline-style
