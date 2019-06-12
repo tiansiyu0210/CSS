@@ -12,6 +12,7 @@
 - [Margins](#margins)
 - [Padding](#padding)
 - [Height and Width](#height-and-width)
+- [Box Model](#box-model)
 
 ## Syntax
 ```
@@ -391,4 +392,23 @@ div {
 > **Note**: The value of the max-width property overrides width.
 
 
+## [Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
+
+```
+div {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0; 
+}
+```
+Here is the calculation:
+
+```
+320px (width)
++ 20px (left + right padding)
++ 10px (left + right border)
++ 0px (left + right margin)
+= 350px
+```
 
