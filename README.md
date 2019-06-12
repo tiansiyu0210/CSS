@@ -11,6 +11,7 @@
 - [Borders](#borders)
 - [Margins](#margins)
 - [Padding](#padding)
+- [Height and Width](#height-and-width)
 
 ## Syntax
 ```
@@ -374,6 +375,20 @@ div.ex2 {
 </html>
 ```
 
+## [Height and Width](https://www.w3schools.com/css/css_dimension.asp)
+
+> The height and width properties do not include padding, borders, or margins; they set the height/width of the area inside the padding, border, and margin of the element!
+
+- Setting max-width
+```
+div {
+  max-width: 500px;
+  height: 100px;
+  background-color: powderblue;
+}
+```
+
+> **Note**: The value of the max-width property overrides width.
 
 
 
