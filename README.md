@@ -863,7 +863,7 @@ table, th, td {
 }
 ```
 
-> If you only want a border around the table, only specify the border property for <table>
+If you only want a border around the table, only specify the border property for <table>
 
 
 ```
