@@ -20,7 +20,7 @@
 - [Links](#links)
 - [Lists](#lists)
 - [Tables](#tables)
-
+- [The display Property](#the-display-property)
 
 ## Syntax
 ```
@@ -954,3 +954,46 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 
 
+## [The display Property](https://www.w3schools.com/css/css_display_visibility.asp)
+
+- Block-level Elements
+  - <div>
+  - <h1> - <h6>
+  - <p>
+  - <form>
+  - <header>
+  - <footer>
+  - <section>
+  
+- Inline Elements
+  - <span>
+  - <a>
+  - <img>
+  
+- Display: none
+
+```
+li {
+  display: inline;
+}
+
+span {
+  display: block;
+}
+```
+
+- Hide an Element - display:none or visibility:hidden?
+
+```
+h1.hidden {
+  visibility: hidden;
+}
+
+h1.hidden {
+  display: none;
+}
+```
+
+
+
+- Override The Default Display Value
