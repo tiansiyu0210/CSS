@@ -17,6 +17,7 @@
 - [Text](#text)
 - [Fonts](#fonts)
 - [Icons](#icons)
+- [Links](#links)
 
 
 ## Syntax
@@ -670,5 +671,90 @@ h1 {
 </html>
 ```
 
+## [Links](https://www.w3schools.com/css/css_link.asp)
 
+1. a:link - a normal, unvisited link
+2. a:visited - a link the user has visited
+3. a:hover - a link when the user mouses over it
+4. a:active - a link the moment it is clicked
 
+```
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+```
+> a:hover MUST come after a:link and a:visited
+> a:active MUST come after a:hover
+
+- Text Decoration
+
+```
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+```
+
+- Background Color
+
+```
+a:link {
+  background-color: yellow;
+}
+
+a:visited {
+  background-color: cyan;
+}
+
+a:hover {
+  background-color: lightgreen;
+}
+
+a:active {
+  background-color: hotpink;
+} 
+```
+
+- Link Buttons
+
+```
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+```
