@@ -18,6 +18,7 @@
 - [Fonts](#fonts)
 - [Icons](#icons)
 - [Links](#links)
+- [Lists](#lists)
 
 
 ## Syntax
@@ -756,5 +757,85 @@ a:link, a:visited {
 
 a:hover, a:active {
   background-color: red;
+}
+```
+
+## [Lists](https://www.w3schools.com/css/css_list.asp)
+
+1. unordered lists (<ul>) - the list items are marked with bullets
+2. ordered lists (<ol>) - the list items are marked with numbers or letters
+  
+- Different List Item Markers
+
+```
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+```
+
+- An Image as The List Item Marker
+
+```
+ul {
+  list-style-image: url('sqpurple.gif');
+}
+```
+
+- Position The List Item Markers
+
+```
+ul.a {
+  list-style-position: outside;
+}
+
+ul.b {
+  list-style-position: inside;
+}
+```
+
+- Remove Default Settings
+
+```
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+```
+
+- Styling List With Colors
+
+```
+ol {
+  background: #ff9999;
+  padding: 20px;
+}
+
+ul {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ol li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: #cce5ff;
+  margin: 5px;
 }
 ```
