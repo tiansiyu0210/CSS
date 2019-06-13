@@ -19,6 +19,7 @@
 - [Icons](#icons)
 - [Links](#links)
 - [Lists](#lists)
+- [Tables](#tables)
 
 
 ## Syntax
@@ -839,3 +840,116 @@ ul li {
   margin: 5px;
 }
 ```
+
+## [Tables](https://www.w3schools.com/css/css_table.asp)
+
+- Table Borders
+
+```
+table, th, td {
+  border: 1px solid black;
+}
+```
+
+- Collapse Table Borders
+
+```
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+```
+
+> If you only want a border around the table, only specify the border property for <table>
+  
+```
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+```
+
+- Table Width and Height
+
+```
+table {
+  width: 100%;
+}
+
+th {
+  height: 50px;
+}
+```
+
+- Horizontal Alignment
+
+```
+th {
+  text-align: left;
+}
+```
+
+- Vertical Alignment
+
+```
+td {
+  height: 50px;
+  vertical-align: bottom;
+}
+```
+
+- Table Padding
+
+```
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+```
+
+- Horizontal Dividers
+
+```
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+```
+
+- Hoverable Table
+
+```
+tr:hover {background-color: #f5f5f5;}
+```
+
+- Striped Tables
+
+```
+tr:nth-child(even) {background-color: #f2f2f2;}
+```
+
+- Responsive Table
+
+```
+<div style="overflow-x:auto;">
+
+<table>
+... table content ...
+</table>
+
+</div>
+```
+
+|Property|	Description|
+|---|---|
+|border|	Sets all the border properties in one declaration|
+|border-collapse|	Specifies whether or not table borders should be collapsed|
+|border-spacing|	Specifies the distance between the borders of adjacent cells|
+|caption-side|	Specifies the placement of a table caption|
+|empty-cells|	Specifies whether or not to display borders and background on empty cells in a table|
+|table-layout|	Sets the layout algorithm to be used for a table|
+
+
+
