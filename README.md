@@ -957,18 +957,18 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 ## [The display Property](https://www.w3schools.com/css/css_display_visibility.asp)
 
 - Block-level Elements
-  - <div>
-  - <h1> - <h6>
-  - <p>
-  - <form>
-  - <header>
-  - <footer>
-  - <section>
+  - `<div>`
+  - `<h1> - <h6>`
+  - `<p>`
+  - `<form>`
+  - `<header>`
+  - `<footer>`
+  - `<section>`
   
 - Inline Elements
-  - <span>
-  - <a>
-  - <img>
+  - `<span>`
+  - `<a>`
+  - `<img>`
   
 - Display: none
 
