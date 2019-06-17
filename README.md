@@ -21,6 +21,7 @@
 - [Lists](#lists)
 - [Tables](#tables)
 - [The display Property](#the-display-property)
+- [Interview Question](#interview-question)
 
 ## Syntax
 ```
@@ -997,3 +998,10 @@ h1.hidden {
 
 
 - Override The Default Display Value
+
+
+
+## [Interview Question](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/src/questions/css-questions.md)
+
+- [What is CSS selector specificity and how does it work?](https://www.w3schools.com/css/css_specificity.asp)
+- []
