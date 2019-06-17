@@ -1004,4 +1004,4 @@ h1.hidden {
 ## [Interview Question](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/src/questions/css-questions.md)
 
 - [What is CSS selector specificity and how does it work?](https://www.w3schools.com/css/css_specificity.asp)
-- []
+- [questions 1](https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2)
