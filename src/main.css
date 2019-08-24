@@ -1,8 +1,12 @@
-section {
+#first-section {
     background: red;
 }
 
 h1 {
     color: salmon;
     font-family: 'Anton', sans-serif;
+}
+
+.second-title {
+    color: #2ddf5c;
 }
